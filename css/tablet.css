@@ -1,0 +1,61 @@
+header {
+   
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+ }
+    header .title:hover{
+      background-color: blue;
+      color: rgb(116, 6, 39);
+    }
+    header .nav-link {
+        padding-left: 30px;
+      }
+      #home .home-img {
+        width: 80%;
+        position: relative;
+        left: 5%;
+        padding-top: 40px; }
+ #home h2,
+ #home p,
+ #home .list {
+    position: relative;
+    left: 5%;
+    padding-top: 20px; }
+    #home .passing-part{
+        width: 80%;
+     }
+     #products {
+        margin-left: 5rem;
+        padding-top: 50px;
+     }
+     
+     .service {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+     }
+     .service .first {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-right: 10px;
+        padding-left: 2rem;
+     
+     }
+     footer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 50px;
+     }
+     footer .nav-link {
+        text-align: center;
+        margin:auto;
+     }
+     
+ 
